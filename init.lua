@@ -682,6 +682,7 @@ require('lazy').setup({
         jedi_language_server = {},
         ltex = {},
         nil_ls = {},
+        yamlls = {},
         -- pyright = {},
         -- rust_analyzer = {},
         -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
