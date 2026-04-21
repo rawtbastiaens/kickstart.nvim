@@ -15,6 +15,15 @@ return {
   },
   opts = {
     filesystem = {
+      -- Event handler to move to buffer left when opening with nvim . 
+      event_handlers = {
+        {
+          event = "neo_tree_buffer_enter",
+          handler = function()
+            vim.cmd("wincmd l")
+          end,
+        },
+      },
       window = {
         mappings = {
           ['\\'] = 'close_window',
