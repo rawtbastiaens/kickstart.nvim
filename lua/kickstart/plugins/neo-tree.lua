@@ -21,9 +21,11 @@ return {
           ["l"] = "open",
           ["h"] = "close_node",
         },
-      follow_current_file = {
-        enabled = true,
-        leave_dirs_open = false,
+        position = "left",
+        follow_current_file = {
+          enabled = true,
+          leave_dirs_open = true,
+        },
       },
       hijack_netrw_behavior = "open_current",
       },
