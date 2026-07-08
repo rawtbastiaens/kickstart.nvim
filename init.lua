@@ -684,7 +684,6 @@ require('lazy').setup({
         bashls = {},
         jedi_language_server = {},
         ltex = {},
-        nil_ls = {},
         yamlls = {},
         jsonls = {},
         terraformls = {},
